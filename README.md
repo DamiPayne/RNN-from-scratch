@@ -1,2 +1,5 @@
-# recurrent-neural-network-from-scratch
+# Recurrent Neural Network built from scratch
 Creating a recurrent neural network (RNN) in python with only Numpy
+
+## dependencies 
+Numpy
