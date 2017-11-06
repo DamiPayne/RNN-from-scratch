@@ -39,7 +39,8 @@ def sigmoid(x):
 
 
 def sigmoid_output_to_derivative(output):
-    '''calculates the gradient of our sigmoid which is used to find our error)'''
+    '''calculates the gradient of our sigmoid which is used to find our error'''
+    '''via a method known as gradient descent'''
     return output * (1 - output)
 
 # training dataset generation
