@@ -8,7 +8,7 @@
 # From calculation, it is expected that the local minimum occurs at x=9/4
 
 # so how does it work we start with the guess which is our current x value (cur_x)
-# we find the gradient of our given point and then aim to minimise the gradient 
+# we find the gradient of our given point and then aim to minimise the gradient
 # by moving slowly in the direction that increases the gradient by the value gamma
 # the result is that we slowly move towards the local minimum
 
