@@ -35,12 +35,21 @@ def sigmoid(x):
     output = 1 / (1 + np.exp(-x))
     return output
 
+def tanh(x):
+    '''adding tanh activation funtion for comparison'''
+     output = np.sinh(x)/np.cosh(x)
+     return output
+
 # Now we need to get the derivative of the sigmoid
 
 
 def sigmoid_output_to_derivative(output):
     '''calculates the gradient of our sigmoid which is used to find our error'''
     '''via a method known as gradient descent'''
+    return output * (1 - output)
+
+def tanh_output_to_derivative(output):
+    '''calculates the gradient of our tanh which is used to find our error'''
     return output * (1 - output)
 
 # training dataset generation
